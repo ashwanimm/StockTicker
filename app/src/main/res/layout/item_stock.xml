@@ -1,0 +1,41 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="0"
+    >
+    <TableRow
+        android:gravity="left"
+        >
+
+        <TextView
+            android:id="@+id/ticker"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:lines="1"
+            android:singleLine="true"
+            android:text="Ticker"/>
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="10dp"
+            android:gravity="right"
+            android:singleLine="true"
+            android:text="Price"/>
+
+        <TextView
+            android:id="@+id/lastChange"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:ellipsize="none"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="Last Update"/>
+
+    </TableRow>
+</TableLayout>
